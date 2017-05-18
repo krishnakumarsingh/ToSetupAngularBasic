@@ -1,2 +1,2 @@
-# ToSetupAngularBasic
-To Setup Angular Basic.
+# simple-ng-1
+Simple  angularjs example

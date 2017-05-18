@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example - example-heroComponentSimple-production</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</head>
+<body id="main" ng-app="app" class="ng-scope" ng-controller = "studentController">
+	{{name}}
+</body>
+<script type="text/javascript">
+	var app = angular.module("app", []);
+	app.controller("studentController", function($scope) {
+		$scope.name = "KK"
+	})
+</script>
+</html>
